@@ -11,5 +11,3 @@ rl.question("Sisestage astme alsu: ", astmeAlus =>{
         rl.close
     } )
 } )
-
-
