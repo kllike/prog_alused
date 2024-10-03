@@ -6,8 +6,10 @@ const rl = readline.createInterface({
 });
 
 rl.question("Sisestage mitu korda äratada:", äratamisekordus =>{
-    for(let kord = 1; kord <= äratamisekordus; kord++){
+     let kord = 1
+    while( kord <= äratamisekordus) {
         console.log("Tõuse ja sära!")
-    } 
+        kord++
+    }
     rl.close()
 } )
